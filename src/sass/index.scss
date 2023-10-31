@@ -1,0 +1,99 @@
+@import './common';
+@import './catalog';
+@import './header';
+@import './about-us';
+
+:root {
+    --black: #141414;
+    --lightblack: rgba(20, 20, 20, 0.50);
+    --white: #fff;
+    --dark-green: #1E2827;
+    --figcaption: rgba(255, 255, 255, 0.50);
+
+}
+
+body {
+    font-family: 'epilouge', sans-serif;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+h3,
+p {
+    margin: 0px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import './new-watches';
