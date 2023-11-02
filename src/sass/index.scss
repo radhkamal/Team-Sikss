@@ -2,7 +2,11 @@
 @import './catalog';
 @import './header';
 @import './about-us';
-@import './footer.scss';
+@import './footer';
+@import './new-watches';
+@import './sale';
+
+
 
 :root {
     --black: #141414;
@@ -31,78 +35,38 @@ p {
 img {
     max-width: 100%;
     height: auto;
+    display: block;
+    border-style: none;
+    object-fit: cover;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@import './new-watches';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Epilogue"
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+}

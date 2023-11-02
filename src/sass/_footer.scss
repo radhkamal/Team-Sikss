@@ -1,16 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-@import url(./about-us.css);
 ul {
   list-style-type: none;
   
 }
 
-.container {
+.footer-con {
   max-width: 1176px;
   margin: 0 auto;
   padding: 104px 32px;
@@ -156,7 +149,7 @@ ul {
 
 }
 
-.footert-links {
+.footer-links {
   display: flex;
   text-align: right;
   justify-content: right;
