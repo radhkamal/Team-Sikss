@@ -1,59 +1,7 @@
-:root {
-    --primary-black-color:  #141414;
-    --primary-white-color: #ffff;
-    --primary-color-gray: rgba(20, 20, 20, 0.50);
-}
-
-/*resets*/
-
-*,
-::after,
-::before {
-  box-sizing: border-box;
-  margin: 0;
-}
-
-h1,h2,h3,h4,h5,h6,p {
-  margin: 0;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-div {
-  margin: 0;
-
-}
-
-
-body {
-
-  color: var(--primary-black-color);
-  font-family: 'Epilogue', sans-serif;
-  font-size: 16px;
-  background-color: var(--primary-white-color);
-        
-  }
-
-  
-
-.images {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
- 
-
-  
-  /*end of reset*/
-
 .sales-container {
   display: flex;
   width: 1176px;
-  padding: 0 132px;
+  padding: 0 132px 100px;
   margin: 0 auto;
 }
 

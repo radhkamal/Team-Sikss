@@ -74,7 +74,7 @@
 .footer-social-link:hover,
 .footer-social-link:focus {
   border: 1px solid var(--white);
-  fill: #293c39;
+  fill: #6B8E23;
 }
 
 .footer-logo-icon {
@@ -187,12 +187,12 @@
   }
 
   .footer-title-nav-item {
-    transition: color var(--timing);
+    transition: color 400ms;
   }
 
   .footer-title-nav-item:hover,
   .footer-title-nav-item:focus {
-    color: #293c39;
+    color: #6B8E23;
   }
 }
 

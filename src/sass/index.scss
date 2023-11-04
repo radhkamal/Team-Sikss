@@ -13,6 +13,9 @@
     --white: #fff;
     --dark-green: #1E2827;
     --figcaption: rgba(255, 255, 255, 0.50);
+    --primary-black-color:  #141414;
+    --primary-white-color: #ffff;
+    --primary-color-gray: rgba(20, 20, 20, 0.50);
 
 }
 
@@ -52,21 +55,49 @@ img {
     font-family: "Epilogue"
 }
 
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+
 a {
     text-decoration: none;
     color: currentColor;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    font-family: "Epilogue-Variable", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: var(--black-color);
+    background-color: #FBFBFB;
+}
+
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 ul {
     list-style: none;
     padding: 0;
     text-decoration: none;
+}
+
+div {
+    margin: 0;
 }
 
 .container {
