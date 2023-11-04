@@ -50,6 +50,9 @@
 .catalog-item img {
     display: flex;
     padding: 26px 0px 25px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     object-fit: cover;
     object-position: center;
 }
@@ -184,7 +187,8 @@
 
 @media screen and (max-width: 767px) {
     .catalog-container {
-    margin-left: 25px;
+    margin-left: auto;
+    margin-right: auto;
     }
     .catalog-section{
         display: block;
@@ -200,7 +204,6 @@
     }
     
     .catalog-btn-container{
-        display: flex;
         flex-direction: row;
         align-items:flex-end;
         margin-top: 40px;
