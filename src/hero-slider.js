@@ -12,7 +12,7 @@ var swiper = new Swiper('.hero-slider', {
       nextEl: '.swiper-next',
       prevEl: '.swiper-back',
    },
-   
+
 });
 
 swiper.on('slideChange', function () {

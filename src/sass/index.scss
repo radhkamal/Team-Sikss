@@ -30,6 +30,9 @@ p {
     margin: 0px;
 }
 
+.address {
+    font-style: normal;
+}
 
 img {
     max-width: 100%;
@@ -51,6 +54,7 @@ img {
 
 a {
     text-decoration: none;
+    color: currentColor;
 }
 
 body {

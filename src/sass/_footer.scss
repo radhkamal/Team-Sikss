@@ -4,7 +4,7 @@
   padding-bottom: 20px;
 }
 
-.container-footer {
+.footer-blocks {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -16,23 +16,11 @@
   height: 40px;
 }
 
-.footer-logo-icon {
-  fill: inherit;
-}
-
-.footer-logo {
-  margin-bottom: 40px;
-}
-
-.footer-logo-icon {
-  fill: rgb(247, 235, 220);
-}
-
 .footer-logo-contacts {
   margin-bottom: 40px;
 }
 
-.footer-contacts-list {
+.footer-list-contacts {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -79,19 +67,30 @@
   fill: var(--white);
 }
 
-.footer-social-icon {
+.footer-social-icon-big {
   fill: inherit;
-  display: none;
 }
 
 .footer-social-link:hover,
 .footer-social-link:focus {
   border: 1px solid var(--white);
-  fill: #6B8E23;
+  fill: #293c39;
 }
 
-.footer-social-list .footer-social-item {
+.footer-logo-icon {
+  fill: inherit;
+}
+
+.footer-logo {
+  margin-bottom: 40px;
+}
+
+.footer-social-list .footer-social-item+.footer-social-item {
   margin-left: 14px;
+}
+
+.footer-social-icon-big {
+  display: none;
 }
 
 .footer-copy-privacy {
@@ -117,7 +116,7 @@
     padding-top: 80px;
   }
 
-  .footer-container {
+  .footer-blocks {
     margin-bottom: 0;
   }
 
@@ -131,7 +130,7 @@
     justify-content: space-between;
   }
 
-  .footer-contacts-list {
+  .footer-list-contacts {
     font-size: 18px;
     line-height: 1.333;
   }
@@ -140,7 +139,7 @@
     margin-bottom: 40px;
   }
 
-  .footer-social-list .footer-social-item {
+  .footer-social-list .footer-social-item+.footer-social-item {
     margin-left: 16px;
   }
 
@@ -171,12 +170,15 @@
     margin-bottom: 152px;
   }
 
-  .footer-social-media {
+  .footer-social {
     margin-bottom: 0;
   }
 
-  .footer-social-icon {
+  .footer-social-icon-big {
     display: block;
+  }
+
+  .footer-social-icon-small {
     display: none;
   }
 
@@ -184,23 +186,26 @@
     gap: 18px;
   }
 
-  .footer-nav-item {
-    transition: color 400ms;
+  .footer-title-nav-item {
+    transition: color var(--timing);
   }
 
-  .footer-nav-item:hover,
-  .footer-nav-item:focus {
-    color: #6B8E23;
+  .footer-title-nav-item:hover,
+  .footer-title-nav-item:focus {
+    color: #293c39;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .footer-logo-contacts {
     margin-bottom: 174px;
+  }
+
+  .footer-logo-contacts {
     margin-right: 355px;
   }
 
-  .footer-social-media {
+  .footer-social {
     margin-left: auto;
   }
 }
