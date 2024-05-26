@@ -2,21 +2,18 @@
   "name": "team_project",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://ruki21.github.io/team_project",
+  "homepage": "https://radhkamal.github.io/Team-Sikss",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /team_project/"
+    "build": "parcel build src/*.html --public-url /"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ruki21/team_project.git"
+    "url": "git+https://github.com/radhkamal/Team-Sikss.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ruki21/team_project/issues"
-  },
   "dependencies": {
     "modern-normalize": "^1.1.0",
     "swiper": "^11.0.3"
