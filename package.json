@@ -5,7 +5,8 @@
   "homepage": "https://radhkamal.github.io/Team-Sikss",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /"
+    "build": "parcel build src/*.html --public-url /",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
